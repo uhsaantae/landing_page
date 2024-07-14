@@ -1,0 +1,194 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+.hero-section {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 0;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 16px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  gap: 32px;
+  align-items: stretch;
+  justify-content: center;
+  padding: 150px 0;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+.hero-sub-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-image {
+  background-color: lightgrey;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin: 5px 0;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 5px 20px;
+  border-radius: 8px;
+  border: none;
+}
+
+.random-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.random-container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.random-header {
+  font-size: 36px;
+  font-weight: 800;
+  padding: 20px;
+  text-align: center;
+}
+
+.random-content {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 60px;
+  padding: 100px 0;
+}
+
+.random-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  max-width: 150px;
+  color: rgb(73, 73, 73);
+}
+
+.random-image {
+  width: 150px;
+  height: 150px;
+  border: 4px solid #3882f6;
+  border-radius: 16px;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-container {
+  padding: 150px 0;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.quote-text {
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.quote-author {
+  align-self: end;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.call-container {
+  background-color: #3882f6;
+  margin: 150px;
+  padding: 40px 80px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.call-content {
+  color: white;
+}
+
+.call-main-text {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.call-sub-text {
+  color: #e5e7eb;
+}
+
+.call-container > button {
+  border: 2px solid white;
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 30px;
+}
